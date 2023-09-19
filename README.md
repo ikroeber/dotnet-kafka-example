@@ -1,6 +1,6 @@
 # dotnet-kafka-example
 
-This is a small example where I made two simple applications to server as producer and consumer for Kafka, respectively. This example didn't mind about topic partitions as it was developed just to showcase how easy using Kafka is using .NET, specially with the `Confluent.Kafka` package.
+This is a small example where two simple applications serve as producer and consumer for Kafka, respectively. The applications don't mind about topic partitions as they were developed just to showcase how easy using Kafka with .NET is, specially with the `Confluent.Kafka` package.
 
 ## Running the Applications
 
