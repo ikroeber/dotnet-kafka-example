@@ -11,7 +11,7 @@ First, we need Kafka to be running for both applications to work. We will be usi
 docker compose up
 ```
 
-The solution file already references the two projects, so we can build both by running `dotnet build`, but we can also build and run by using both:
+The solution file already references the two projects, so we can build both for debugging by running `dotnet build`, but we can also build and run by using both:
 
 ```sh
 dotnet run --project Example.ConsoleProducer
