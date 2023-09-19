@@ -15,7 +15,7 @@ The solution file already references the two projects, so we can build both for 
 
 ```sh
 dotnet run --project Example.ConsoleProducer
-dotnet run --project Example.Console.Consumer
+dotnet run --project Example.ConsoleConsumer
 ```
 
 **Note:** The consumer will throw an error if started first because the Kafka container needs the topic to be created before it can serve the messages. Running the producer first automatically creates the topic and sends the messages.
